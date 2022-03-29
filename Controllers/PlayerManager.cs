@@ -18,9 +18,7 @@ namespace TextAdventure
                 return instance;
             }
         }
-
-        public MessageService ms = new MessageService();
-
+        
         public Room CurrentRoom { get; set; }
         public List<Item> Inventory { get; set; }
 

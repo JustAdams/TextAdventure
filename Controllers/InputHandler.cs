@@ -9,7 +9,6 @@ namespace TextAdventure
     {
         GameManager gm;
         PlayerManager pm;
-        MessageService ms = new MessageService();
 
         public InputHandler()
         {
